@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "225947320896",
+    "firebase_url": "https://gamevault-1777c-default-rtdb.firebaseio.com",
+    "project_id": "gamevault-1777c",
+    "storage_bucket": "gamevault-1777c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225947320896:android:b04eaefaa13590afded5a5",
+        "android_client_info": {
+          "package_name": "com.example.app_s10"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQIiGX0UWry-rAYhmGHCO66jMRHzYqbuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225947320896:android:8a27c37045a9b74aded5a5",
+        "android_client_info": {
+          "package_name": "com.example.sem09"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQIiGX0UWry-rAYhmGHCO66jMRHzYqbuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

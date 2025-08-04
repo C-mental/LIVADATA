@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F5F5F5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- LOGO UNS -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:src="@drawable/logo_uns"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Línea decorativa -->
+        <View
+            android:layout_width="80dp"
+            android:layout_height="4dp"
+            android:background="#C62828"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Título -->
+        <TextView
+            android:text="Iniciar Sesión"
+            android:textSize="22sp"
+            android:textColor="#212121"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:hint="Correo institucional"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="#C62828"
+            android:textColor="#212121"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Validación de correo -->
+        <TextView
+            android:id="@+id/tvEmailStatus"
+            android:text=""
+            android:textColor="#C62828"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:backgroundTint="#C62828"
+            android:textColor="#212121"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Botón de login -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:text="Acceder"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#C62828"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Línea decorativa inferior -->
+        <View
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="#C62828"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+</ScrollView>

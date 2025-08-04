@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Logo UNS -->
+    <ImageView
+        android:src="@drawable/logo_uns"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Línea roja -->
+    <View
+        android:layout_width="100dp"
+        android:layout_height="4dp"
+        android:background="#C62828"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Mensaje de bienvenida -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:text="¡Bienvenido a la App UNS!"
+        android:textSize="20sp"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Subtítulo -->
+    <TextView
+        android:text="Esta es una pantalla de prueba después del login."
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
